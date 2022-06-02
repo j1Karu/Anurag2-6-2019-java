@@ -20,6 +20,9 @@ public class GroupTest1 {
 	public void dashboard () {
 		
 		System.out.println("this is a regression group dashboard test");
+		System.out.println("he faqt git sati ahe samxl kay ? ");
 	}
+	
+
 	
 }
