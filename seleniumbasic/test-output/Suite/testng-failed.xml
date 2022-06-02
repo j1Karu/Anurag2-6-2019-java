@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="Opera(failed)">
+    <parameter name="browser" value="Opera"/>
+    <classes>
+      <class name="cROSS_Browser.CrossBrowserTestClass">
+        <methods>
+          <include name="orangeLogin"/>
+          <include name="loginorange"/>
+          <include name="objdistruction"/>
+          <include name="launchbrowser"/>
+          <include name="dashboardorange"/>
+          <include name="browserclose"/>
+        </methods>
+      </class> <!-- cROSS_Browser.CrossBrowserTestClass -->
+    </classes>
+  </test> <!-- Opera(failed) -->
+</suite> <!-- Failed suite [Suite] -->
